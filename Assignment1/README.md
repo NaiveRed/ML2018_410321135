@@ -43,7 +43,7 @@ Eprime.png: 待解碼的圖片
 (以上檔案為老師所提供，皆為 300 x 400)
 
 weights.txt: 所找出的權重  
-weights.dat: 所找出的權重(ndarray)
+weights.dat: 所找出的權重(ndarray)  
 Eprime_dec.png: Eprime 解碼後的圖片
 
 其他在 DEMO 內說明。

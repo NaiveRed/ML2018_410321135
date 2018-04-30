@@ -58,13 +58,13 @@ Perceptron learning algorithm
 
 Learning rate: 0.00001  
 
-![algo](img\algo.png)
+![algo](img/algo.png)
 
 ### Decryption
 
 直接對每個 pixel 套用公式取回原像素：
 
-![decrypt](img\de_img.png)
+![decrypt](img/de_img.png)
 
 要注意的是算出來的值型別為 float，且範圍會超出 [0, 255]，需再做正規化。
 
@@ -73,13 +73,13 @@ Learning rate: 0.00001
 對於圖片大小與加密鑰匙 (300 x 400) 不同的會先調整大小，並以灰階去讀取。  
 利用原公式求出加密後的值並正規化即可。
 
-![encrypt](img\en_img.png)
+![encrypt](img/en_img.png)
 
 ### Normalization
 
 將值對應到 [0, 255]。
 
-![normalization](img\normalize.png)
+![normalization](img/normalize.png)
 
 ### Display
 
@@ -95,19 +95,19 @@ weight vector: [0.249143 0.661382 0.089240]
 `python main.py dec ML_data\Eprime.png`  
 
 課程提供之 Eprime 的解碼結果：  
-![de1](img\de1.png)  
+![de1](img/de1.png)  
 檔案：[Eprime_dec.png](ML_data\Eprime_dec.png)
 
 `python main.py enc ML_data\Iprime.jpg`  
 
 其他圖片 Iprime 的加密結果：  
-![en1](img\en1.png)  
+![en1](img/en1.png)  
 檔案：[Iprime_enc.png](ML_data\Iprime_enc.png)
 
 `python main.py dec ML_data\Iprime_enc.png`  
 
 利用 Iprime_enc 再解碼：  
-![de2](img\de2.png)  
+![de2](img/de2.png)  
 檔案：[Iprime_enc_dec.png](ML_data\Iprime_enc_dec.png)
 
 ## Reference

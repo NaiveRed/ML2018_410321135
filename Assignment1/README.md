@@ -9,20 +9,20 @@
 
 OS: windows 10  
 Python: 3.6.5  
-Other packages: [requirements.txt](requirements.txt)
+Other packages: matplotlib numpy opencv-python
 
 ## 使用說明
 
 Command:
 ```
 gen:    Generate weight vector
-    output files: weights.txt, weights.dat
+        output files: weights.txt, weights.dat
 
 dec:    Decrypt the image(need weights)
-    output file: decrypted.png
+        output file: decrypted.png
 
 enc:    Encrypt the image(need weights)
-    output file: encrypted.png
+        output file: encrypted.png
 ```
 
 Usage:
@@ -45,6 +45,8 @@ Eprime.png: 待解碼的圖片
 weights.txt: 所找出的權重  
 weights.dat: 所找出的權重(ndarray)
 Eprime_dec.png: Eprime 解碼後的圖片
+
+其他在 DEMO 內說明。
 
 ## 程式說明
 
@@ -95,18 +97,21 @@ weight vector: [0.249143 0.661382 0.089240]
 `python main.py dec ML_data\Eprime.png`  
 
 課程提供之 Eprime 的解碼結果：  
+
 ![de1](img/de1.png)  
 檔案：[Eprime_dec.png](ML_data\Eprime_dec.png)
 
 `python main.py enc ML_data\Iprime.jpg`  
 
 其他圖片 Iprime 的加密結果：  
+
 ![en1](img/en1.png)  
 檔案：[Iprime_enc.png](ML_data\Iprime_enc.png)
 
 `python main.py dec ML_data\Iprime_enc.png`  
 
 利用 Iprime_enc 再解碼：  
+
 ![de2](img/de2.png)  
 檔案：[Iprime_enc_dec.png](ML_data\Iprime_enc_dec.png)
 

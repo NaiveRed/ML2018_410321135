@@ -1,6 +1,6 @@
 # NDHU Machine Learning Course
 
-:school: The practice and assignments of machine learning course in NDHU.
+The practice and assignments of machine learning course in NDHU.
 
 ## [Assignment 1: Image Decryption using Linear Percetpron](Assignment1)
 

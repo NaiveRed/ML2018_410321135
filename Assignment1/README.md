@@ -99,21 +99,21 @@ weight vector: [0.249143 0.661382 0.089240]
 課程提供之 Eprime 的解碼結果：  
 
 ![de1](img/de1.png)  
-檔案：[Eprime_dec.png](ML_data\Eprime_dec.png)
+檔案：[Eprime_dec.png](ML_data/Eprime_dec.png)
 
 `python main.py enc ML_data\Iprime.jpg`  
 
 其他圖片 Iprime 的加密結果：  
 
 ![en1](img/en1.png)  
-檔案：[Iprime_enc.png](ML_data\Iprime_enc.png)
+檔案：[Iprime_enc.png](ML_data/Iprime_enc.png)
 
 `python main.py dec ML_data\Iprime_enc.png`  
 
 利用 Iprime_enc 再解碼：  
 
 ![de2](img/de2.png)  
-檔案：[Iprime_enc_dec.png](ML_data\Iprime_enc_dec.png)
+檔案：[Iprime_enc_dec.png](ML_data/Iprime_enc_dec.png)
 
 ## Reference
 

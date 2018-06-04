@@ -1,0 +1,11 @@
+
+# python virtual environment
+py_venv
+act.bat
+dea.bat
+
+# vscode
+.vscode
+
+# some specific files
+test.py

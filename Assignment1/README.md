@@ -9,7 +9,7 @@
 
 OS: windows 10  
 Python: 3.6.5  
-Other packages: matplotlib numpy opencv-python
+Other packages: matplotlib, numpy, opencv-python
 
 ## 使用說明
 

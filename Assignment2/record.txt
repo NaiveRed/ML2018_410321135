@@ -1,0 +1,74 @@
+Data:
+    
+    X_train size: (60000, 784)
+    y_train size: (60000,)
+    X_test size: (10000, 784)
+    y_test size: (10000,)
+
+SVC(C=1.0, kernel='rbf'):
+
+    training time: 540.021601 sec
+    training set acc: 0.943
+    testing set acc: 9446/10000(0.9446)
+
+convert to binary color,
+SVC(C=1.0, kernel='rbf'):
+
+    training time: 471.791367 sec
+    training set acc: 0.9493166666666667
+    testing set acc: 9483/10000(0.9483)
+
+convert to binary color,
+svm.SVC(C=7, gamma=0.009):
+
+    training time: 314.692959 sec
+    training set acc: 0.9996666666666667
+    testing set acc: 9812/10000(0.9812)
+
+PCA(n_components=35, whiten=True),
+SVC(C=1.0, kernel='rbf'):
+
+    training time: 28.733455 sec
+    training set acc: 0.9922
+    testing set acc: 9821/10000(0.9821)
+
+PCA(n_components=50, whiten=True),
+SVC(C=1.0, kernel='rbf'):
+
+    training time: 45.877807 sec
+    training set acc: 0.9936333333333334
+    testing set acc: 9833/10000(0.9833)
+
+mean normalization,
+PCA(n_components=35, whiten=True),
+SVC(C=1.0, kernel='rbf'):
+
+    training time: 27.359246 sec
+    training set acc: 0.9922166666666666
+    testing set acc: 9823/10000(0.9823)
+
+mean normalization,
+PCA(n_components=50, whiten=True),
+SVC(C=1.0, kernel='rbf'):
+
+    training time: 49.567197 sec
+    training set acc: 0.9937166666666667
+    testing set acc: 9835/10000(0.9835)
+
+[0,255] map to [0,1],
+mean normalization,
+PCA(n_components=35, whiten=True),
+SVC(C=1.0, kernel='rbf'):
+
+    training time: 27.148366 sec
+    training set acc: 0.9922666666666666
+    testing set acc: 9825/10000(0.9825)
+
+[0,255] map to [0,1],
+mean normalization,
+PCA(n_components=50, whiten=True),
+SVC(C=1.0, kernel='rbf'):
+
+    training time: 42.878326 sec
+    training set acc: 0.9936166666666667
+    testing set acc: 9835/10000(0.9835)

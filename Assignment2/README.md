@@ -49,7 +49,7 @@ n_comp = 50
 
 ### Convert to binary color
 
-將原本灰階[0, 255]的顏色轉換成 黑(1),白(0)。  
+將原本灰階 [0, 255] 的顏色轉換成 黑(1),白(0)。  
 可用 `plt.imshow(img,cmap='binary')` 去顯示看看。
 
 ```
@@ -204,7 +204,7 @@ SVC(C=1.0, kernel='rbf'):
 ## Reference
 
 [A Beginner's Approach to Classification(classify digits)](https://www.kaggle.com/archaeocharlie/a-beginner-s-approach-to-classification?scriptVersionId=470167)  
-[sklearn-svm](http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+[sklearn-svm](http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)  
 [PCA+SVM](https://www.kaggle.com/zhanghuahua/pca-svm)  
 
 SVM 相關課程： [MIT OpenCourseWare](https://www.youtube.com/watch?v=_PwhiWxHK8o)

@@ -208,3 +208,7 @@ SVC(C=1.0, kernel='rbf'):
 [PCA+SVM](https://www.kaggle.com/zhanghuahua/pca-svm)  
 
 SVM 相關課程： [MIT OpenCourseWare](https://www.youtube.com/watch?v=_PwhiWxHK8o)
+
+PCA:  
+[StatQuest: Principal Component Analysis (PCA)](https://youtu.be/FgakZw6K1QQ)  
+[StatQuest: Principal Component Analysis (PCA)(2015)](https://youtu.be/_UVHneBUBW0)  

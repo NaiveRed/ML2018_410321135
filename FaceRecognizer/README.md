@@ -14,10 +14,14 @@ Usage:
         python face_recognizer.py pred
 ```
 
-## Training Data
+## Data
 
 訓練資料共 650 張，檔名為 `sxx_oo.jpg`，放置在 `data\face_database`。  
 e.g. `s08_oo`: label 為 08。
+
+首先將檔案標記好對應 label 並轉換成灰階或 BGR 且統一大小。  
+這邊為了使訓練資料更多，我們將每張圖都水平翻轉，這樣總共就有 1300 張。  
+測試上使用 0.1 的資料量(130 張未在訓練中)。
 
 ## Program
 
@@ -25,10 +29,6 @@ e.g. `s08_oo`: label 為 08。
 `feature_extractor.py`: 抽取訓練所需的特徵。  
 `utility.py`: 顯示測試。  
 `face_recognizer.py`: 將訓練及預測資料的處理統整在一起，最後的操作介面。
-
-首先將檔案標記好對應 label 並轉換成灰階或 BGR 且統一大小。  
-這邊為了使訓練資料更多，我們將每張圖都水平翻轉，這樣總共就有 1300 張。  
-測試上使用 0.1 的資料量(130 張未在訓練中)。
 
 訓練則分別使用兩種方法： PCA + SVM、HOG + SVM
 

@@ -1,0 +1,301 @@
+Start predict s01_05.jpg
+done in 0.089s
+s01_05.jpg: 39, 16, 9, 1
+Start predict s01_09.jpg
+done in 0.031s
+s01_09.jpg: 1, 1, 1, 1
+Start predict s02_05.jpg
+done in 0.025s
+s02_05.jpg: 2, 2, 2, 2
+Start predict s02_09.jpg
+done in 0.030s
+s02_09.jpg: 40, 40, 40, 1
+Start predict s03_05.jpg
+done in 0.028s
+s03_05.jpg: 3, 3, 3, 3
+Start predict s03_09.jpg
+done in 0.045s
+s03_09.jpg: 14, 14, 16, 3
+Start predict s04_05.jpg
+done in 0.027s
+s04_05.jpg: 4, 4, 4, 4
+Start predict s04_09.jpg
+done in 0.025s
+s04_09.jpg: 4, 4, 4, 4
+Start predict s05_05.jpg
+done in 0.039s
+s05_05.jpg: 5, 5, 5, 5
+Start predict s05_09.jpg
+done in 0.026s
+s05_09.jpg: 5, 5, 5, 32
+Start predict s06_05.jpg
+done in 0.040s
+s06_05.jpg: 10, 10, 35, 5
+Start predict s06_09.jpg
+done in 0.071s
+s06_09.jpg: 6, 6, 6, 6
+Start predict s07_05.jpg
+done in 0.026s
+s07_05.jpg: 7, 7, 7, 7
+Start predict s07_09.jpg
+done in 0.029s
+s07_09.jpg: 18, 18, 16, 43
+Start predict s08_05.jpg
+done in 0.049s
+s08_05.jpg: 8, 8, 8, 8
+Start predict s08_09.jpg
+done in 0.031s
+s08_09.jpg: 8, 8, 8, 8
+Start predict s09_05.jpg
+done in 0.044s
+s09_05.jpg: 40, 40, 9, 9
+Start predict s09_09.jpg
+done in 0.029s
+s09_09.jpg: 9, 9, 9, 9
+Start predict s10_05.jpg
+done in 0.049s
+s10_05.jpg: 10, 10, 49, 10
+Start predict s10_09.jpg
+done in 0.030s
+s10_09.jpg: 10, 10, 10, 10
+Start predict s11_05.jpg
+done in 0.046s
+s11_05.jpg: 11, 11, 11, 11
+Start predict s11_09.jpg
+done in 0.033s
+s11_09.jpg: 11, 11, 11, 11
+Start predict s12_05.jpg
+done in 0.031s
+s12_05.jpg: 12, 12, 12, 12
+Start predict s12_09.jpg
+done in 0.026s
+s12_09.jpg: 12, 12, 12, 12
+Start predict s13_05.jpg
+done in 0.039s
+s13_05.jpg: 5, 18, 35, 13
+Start predict s13_09.jpg
+done in 0.025s
+s13_09.jpg: 13, 13, 13, 45
+Start predict s14_05.jpg
+done in 0.032s
+s14_05.jpg: 46, 14, 14, 14
+Start predict s14_09.jpg
+done in 0.029s
+s14_09.jpg: 1, 1, 14, 14
+Start predict s15_05.jpg
+done in 0.026s
+s15_05.jpg: 15, 15, 15, 15
+Start predict s15_09.jpg
+done in 0.039s
+s15_09.jpg: 15, 15, 15, 15
+Start predict s16_05.jpg
+done in 0.028s
+s16_05.jpg: 39, 39, 13, 9
+Start predict s16_09.jpg
+done in 0.025s
+s16_09.jpg: 33, 33, 14, 16
+Start predict s17_05.jpg
+done in 0.040s
+s17_05.jpg: 17, 17, 17, 17
+Start predict s17_09.jpg
+done in 0.034s
+s17_09.jpg: 17, 17, 17, 17
+Start predict s18_05.jpg
+done in 0.026s
+s18_05.jpg: 18, 4, 19, 19
+Start predict s18_09.jpg
+done in 0.039s
+s18_09.jpg: 18, 18, 18, 18
+Start predict s19_05.jpg
+done in 0.035s
+s19_05.jpg: 45, 45, 44, 5
+Start predict s19_09.jpg
+done in 0.033s
+s19_09.jpg: 19, 19, 19, 19
+Start predict s20_05.jpg
+done in 0.051s
+s20_05.jpg: 20, 20, 20, 20
+Start predict s20_09.jpg
+done in 0.044s
+s20_09.jpg: 20, 20, 20, 20
+Start predict s21_05.jpg
+done in 0.034s
+s21_05.jpg: 5, 5, 50, 26
+Start predict s21_09.jpg
+done in 0.031s
+s21_09.jpg: 21, 21, 21, 21
+Start predict s22_05.jpg
+done in 0.041s
+s22_05.jpg: 33, 33, 22, 9
+Start predict s22_09.jpg
+done in 0.033s
+s22_09.jpg: 22, 22, 22, 22
+Start predict s23_05.jpg
+done in 0.038s
+s23_05.jpg: 23, 23, 23, 23
+Start predict s23_09.jpg
+done in 0.035s
+s23_09.jpg: 23, 23, 23, 23
+Start predict s24_05.jpg
+done in 0.033s
+s24_05.jpg: 24, 24, 24, 24
+Start predict s24_09.jpg
+done in 0.027s
+s24_09.jpg: 24, 24, 24, 24
+Start predict s25_05.jpg
+done in 0.026s
+s25_05.jpg: 25, 25, 7, 25
+Start predict s25_09.jpg
+done in 0.025s
+s25_09.jpg: 25, 25, 25, 25
+Start predict s26_05.jpg
+done in 0.026s
+s26_05.jpg: 42, 42, 35, 19
+Start predict s26_09.jpg
+done in 0.028s
+s26_09.jpg: 26, 26, 26, 26
+Start predict s27_05.jpg
+done in 0.030s
+s27_05.jpg: 27, 7, 27, 27
+Start predict s27_09.jpg
+done in 0.025s
+s27_09.jpg: 27, 11, 27, 27
+Start predict s28_05.jpg
+done in 0.026s
+s28_05.jpg: 28, 28, 28, 28
+Start predict s28_09.jpg
+done in 0.026s
+s28_09.jpg: 28, 28, 28, 28
+Start predict s29_05.jpg
+done in 0.026s
+s29_05.jpg: 29, 29, 29, 29
+Start predict s29_09.jpg
+done in 0.025s
+s29_09.jpg: 4, 4, 40, 42
+Start predict s30_05.jpg
+done in 0.027s
+s30_05.jpg: 30, 30, 30, 30
+Start predict s30_09.jpg
+done in 0.065s
+s30_09.jpg: 30, 30, 30, 30
+Start predict s31_05.jpg
+done in 0.029s
+s31_05.jpg: 31, 40, 31, 31
+Start predict s31_09.jpg
+done in 0.027s
+s31_09.jpg: 31, 31, 31, 31
+Start predict s32_05.jpg
+done in 0.028s
+s32_05.jpg: 32, 32, 14, 25
+Start predict s32_09.jpg
+done in 0.044s
+s32_09.jpg: 32, 32, 32, 32
+Start predict s33_05.jpg
+done in 0.034s
+s33_05.jpg: 40, 33, 33, 33
+Start predict s33_09.jpg
+done in 0.049s
+s33_09.jpg: 40, 33, 33, 33
+Start predict s34_05.jpg
+done in 0.029s
+s34_05.jpg: 34, 34, 34, 34
+Start predict s34_09.jpg
+done in 0.087s
+s34_09.jpg: 34, 34, 34, 11
+Start predict s35_05.jpg
+done in 0.028s
+s35_05.jpg: 16, 16, 35, 35
+Start predict s35_09.jpg
+done in 0.037s
+s35_09.jpg: 4, 35, 35, 35
+Start predict s36_05.jpg
+done in 0.032s
+s36_05.jpg: 36, 36, 36, 36
+Start predict s36_09.jpg
+done in 0.047s
+s36_09.jpg: 36, 36, 36, 36
+Start predict s37_05.jpg
+done in 0.033s
+s37_05.jpg: 37, 10, 37, 37
+Start predict s37_09.jpg
+done in 0.052s
+s37_09.jpg: 37, 9, 37, 37
+Start predict s38_05.jpg
+done in 0.070s
+s38_05.jpg: 38, 38, 38, 38
+Start predict s38_09.jpg
+done in 0.038s
+s38_09.jpg: 38, 38, 38, 38
+Start predict s39_05.jpg
+done in 0.050s
+s39_05.jpg: 39, 39, 39, 39
+Start predict s39_09.jpg
+done in 0.033s
+s39_09.jpg: 39, 25, 39, 39
+Start predict s40_05.jpg
+done in 0.047s
+s40_05.jpg: 40, 40, 40, 40
+Start predict s40_09.jpg
+done in 0.067s
+s40_09.jpg: 40, 40, 40, 40
+Start predict s41_05.jpg
+done in 0.043s
+s41_05.jpg: 41, 41, 41, 41
+Start predict s41_09.jpg
+done in 0.032s
+s41_09.jpg: 41, 41, 41, 41
+Start predict s42_05.jpg
+done in 0.056s
+s42_05.jpg: 42, 42, 42, 42
+Start predict s42_09.jpg
+done in 0.054s
+s42_09.jpg: 42, 42, 42, 42
+Start predict s43_05.jpg
+done in 0.047s
+s43_05.jpg: 43, 43, 43, 43
+Start predict s43_09.jpg
+done in 0.038s
+s43_09.jpg: 43, 43, 43, 43
+Start predict s44_05.jpg
+done in 0.032s
+s44_05.jpg: 44, 44, 44, 44
+Start predict s44_09.jpg
+done in 0.043s
+s44_09.jpg: 44, 50, 44, 44
+Start predict s45_05.jpg
+done in 0.051s
+s45_05.jpg: 7, 45, 45, 45
+Start predict s45_09.jpg
+done in 0.035s
+s45_09.jpg: 45, 45, 45, 45
+Start predict s46_05.jpg
+done in 0.049s
+s46_05.jpg: 46, 1, 46, 46
+Start predict s46_09.jpg
+done in 0.034s
+s46_09.jpg: 46, 46, 46, 46
+Start predict s47_05.jpg
+done in 0.056s
+s47_05.jpg: 47, 47, 47, 47
+Start predict s47_09.jpg
+done in 0.043s
+s47_09.jpg: 47, 47, 47, 47
+Start predict s48_05.jpg
+done in 0.060s
+s48_05.jpg: 14, 7, 48, 48
+Start predict s48_09.jpg
+done in 0.027s
+s48_09.jpg: 48, 48, 48, 48
+Start predict s49_05.jpg
+done in 0.056s
+s49_05.jpg: 49, 49, 49, 49
+Start predict s49_09.jpg
+done in 0.027s
+s49_09.jpg: 49, 49, 49, 49
+Start predict s50_05.jpg
+done in 0.028s
+s50_05.jpg: 50, 50, 50, 50
+Start predict s50_09.jpg
+done in 0.037s
+s50_09.jpg: 50, 50, 50, 50
+wrong: 8/100

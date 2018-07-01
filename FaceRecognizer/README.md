@@ -14,12 +14,10 @@ Usage:
         python face_recognizer.py pred
 ```
 
-## Data
+## Training Data
 
 訓練資料共 650 張，檔名為 `sxx_oo.jpg`，放置在 `data\face_database`。  
 e.g. `s08_oo`: label 為 08。
-
-之後則是使用助教所提供之 100 張未在訓練集中的資料來測試。
 
 ## Program
 
@@ -79,13 +77,8 @@ testing set acc: 0.8538461538461538
 
 ### HOG + SVM
 
-先將圖片以彩色方式(BGR)讀入(統一至平均大小)，接著利用 skimage ：
-```
-hog(img, orientations=ORIENT, pixels_per_cell=PIXELS_PER_CELL,
-cells_per_block=CELLS_PER_BLOCK,block_norm=BLOCK_NORM,
-feature_vector=True, visualize=False, multichannel=True)
-```
-取出 HOG features vector，相關參數：  
+先將圖片以彩色方式(BGR)讀入(統一至平均大小)，接著利用 skimage 的 `hog()` 取出 HOG features vector，
+相關參數：  
 ```
 ORIENT = 9  # number of bins for HOG
 PIXELS_PER_CELL = (32, 32)  # 32x32
@@ -93,7 +86,7 @@ CELLS_PER_BLOCK = (2, 2)  # 2x2 cell
 BLOCK_NORM = "L2"
 ```
 
-再來利用 `LinearSVC(class_weight='balanced')` 對其進行訓練和找出較佳的參數。  
+再來利用 linear SVM: `LinearSVC(class_weight='balanced')` 對其進行訓練和找出較佳的參數。  
 
 以 0.1 的資料去做測試：正確率約為 0.83。
 
@@ -129,10 +122,15 @@ testing set acc: 0.8307692307692308
 將所有圖片(1300 張)去做訓練後產生 model，並用來做預測。  
 
 預測時會將圖片以灰階和彩色的方式讀入，接著各自進行水平反轉，這樣輸入就變為四張。  
-再把它們分別丟進兩個分類器，輸出四個結果。(灰階的丟 PCA 的、彩色的丟 HOG 的。)  
+再把它們分別丟進兩個分類器，輸出四個結果。(灰階的丟 PCA、彩色的丟 HOG。)  
 而為符合題目要求，這邊只要四個結果有一個答對，及算為正確。
 
-## Result
+## Results
 
 [Demo log](demo_pred.txt)  
-使用全部資料進行訓練，並以 100 張未在訓練集中的資料來測試，正確率為 92 %。
+使用全部資料進行訓練(1300 張)，並以 100 張(助教提供)未在訓練集中的資料來測試，正確率為 92 %。
+
+## Reference
+
+[Face Recognition](http://scikit-learn.org/stable/auto_examples/applications/plot_face_recognition.html)  
+[HOG](http://scikit-image.org/docs/dev/auto_examples/features_detection/plot_hog.html)

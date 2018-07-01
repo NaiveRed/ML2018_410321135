@@ -9,3 +9,9 @@ dea.bat
 
 # some specific files
 test.py
+
+# FaceRecognizer
+FaceRecognizer/data/Face_Database
+FaceRecognizer/data/test_img
+FaceRecognizer/data/*.pkl
+FaceRecognizer/__pycache__
